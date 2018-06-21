@@ -1,0 +1,29 @@
+body{
+    font-style: italic;
+    font-weight: 500;
+
+}
+
+#add-Train-btn {
+    padding: 5px 10px;
+    font-size: 15px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: red;
+    background-color: rgb(9, 182, 38);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px rgb(49, 7, 233);
+}
+
+#add-Train-btn:hover{
+    background-color: yellow(47, 68, 68);
+    
+}
+
+#add-Train-btn:active {
+    background-color: #fa9a09;
+    box-shadow: 0 5px rgb(6, 248, 236);
+    transform: translateY(4px);
+}
